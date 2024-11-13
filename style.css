@@ -1,0 +1,161 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #0c0c0c; /* Darker background */
+    color: #e0e0e0; /* Light text color */
+}
+
+header {
+    background: #1f1f1f; /* Darker header background */
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ff6347; /* Tomato red for links */
+    text-decoration: none;
+    transition: color 0.3s, text-shadow 0.3s; /* Smooth transition */
+}
+
+nav ul li a:hover {
+    color: #ff4500; /* Change color on hover to a darker red */
+    text-shadow: 0 0 5px #ff4500, 0 0 10px #ff4500; /* Glowing effect */
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: #1e1e1e; /* Section background */
+    border-radius: 8px; /* Rounded corners for sections */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.7); /* Subtle shadow */
+    transition: background 0.3s, transform 0.3s; /* Smooth transition for background color */
+}
+
+section:hover {
+    background-color: #2a2a2a; /* Slightly lighter on hover */
+    transform: scale(1.02); /* Slightly scale up on hover */
+}
+
+h2 {
+    border-bottom: 2px solid #ff6347; /* Red border */
+    padding-bottom: 10px;
+    transition: text-shadow 0.3s; /* Smooth transition */
+}
+
+h2:hover {
+    text-shadow: 0 0 5px #ff6347, 0 0 10px #ff6347; /* Glowing effect on hover */
+}
+
+p{
+    color: #e0e0e0;
+}
+
+.project {
+    background: #2a2a2a; /* Darker project background */
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+    transition: transform 0.3s, box-shadow 0.3s; /* Smooth transition for hover effects */
+    color: #FF4500;
+}
+
+.project:hover {
+    transform: scale(1.05); /* Scale effect on hover */
+    box-shadow: 0 4px 15px rgba(255, 69, 0, 0.7); /* Red shadow on hover */
+}
+
+.project a {
+    display: inline-block; /* Corrected display property */
+    margin-top: 10px;
+    color: #ff6347; /* Tomato red for project links */
+    text-decoration: none;
+    transition: color 0.3s, text-shadow 0.3s; /* Smooth transition for hover effect */
+}
+
+.project a:hover {
+    color: #ff4500; /* Change color on hover */
+    text-shadow: 0 0 5px #ff4500, 0 0 10px #ff4500; /* Glowing effect */
+}
+
+.profile-photo {
+    width: 150px; /* Set the width of the profile photo */
+    height: 150px; /* Set the height of the profile photo */
+    border-radius: 50%; /* Makes the image round */
+    object-fit: cover; /* Ensures the image covers the entire area without distortion */
+    margin: 20px 0; /* Space around the profile photo */
+    border: 3px solid #ff6347; /* Optional: Add a border around the photo */
+    transition: transform 0.3s, border-color 0.3s; /* Smooth transition for hover effects */
+}
+
+.profile-photo:hover {
+    transform: scale(1.1); /* Slightly enlarge the photo on hover */
+    border-color: #ff4500; /* Change border color on hover */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin: 10px 0 5px;
+    color: #e0e0e0; /* Light text for labels */
+}
+
+form input, form textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #444; /* Dark border */
+    border-radius: 5px;
+    background-color: #333; /* Dark input background */
+    color: #fff; /* Light text in inputs */
+    transition: border-color 0.3s; /* Smooth transition for border color */
+}
+
+form input:focus, form textarea:focus {
+    border-color: #ff6347; /* Change border color on focus */
+}
+
+form button {
+    padding: 10px;
+    background: linear-gradient(135deg, #8B0000, #FF4500); /* Dark red to light red gradient */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.3s, box-shadow 0.3s; /* Smooth transition */
+}
+
+form button:hover {
+    background: linear-gradient(135deg, #FF4500, #8B0000); /* Reverse gradient on hover */
+    transform: scale(1.05); /* Slightly enlarge the button */
+    box-shadow: 0 4px 15px rgba(255, 69, 0, 0.7); /* Red shadow on hover */
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #1f1f1f; /* Dark footer background */
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    transition: background 0.3s; /* Smooth transition for background color */
+}
+
+footer:hover {
+    background: #2a2a2a; /* Slightly lighter on hover */
+}
